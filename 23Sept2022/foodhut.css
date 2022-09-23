@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.main-div
+{
+    height: 100vh;
+    width: 100vw;
+    padding-left: 0px !important;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://www.free-css.com/assets/files/free-css-templates/preview/page280/foodhut/assets/imgs/main.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;  
+    background-position:center !important;
+    background-attachment: fixed !important;
+  } 
+.navbar-div
+{
+    width: 100vw;
+    color: white;
+    height: 20vh;   
+}
+.nav-link
+{color: whitesmoke;}
+.navbar-logo
+{
+    height: 15vh;
+    width:10vw;
+    margin-inline-start:150px;
+    margin-inline-end:150px;  
+    text-align: center;
+}
+.nav-item{
+    margin-top: 30px;
+}
+.image{
+    margin-bottom: 50px;
+}
+.Component-btn
+{
+    margin-left: 50px;
+   
+}
+ul
+{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.title{
+    color: whitesmoke;
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size: 100px;
+    text-align: center;
+   
+ }
+ .headings
+ {
+    margin-top: 100px;
+   
+ }
+.sub_title{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.second_div
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.second-div-img
+{
+    /* background-image: url('https://www.free-css.com/assets/files/free-css-tem…iew/page280/foodhut/assets/imgs/about-section.jpg') !important; */
+    background: url('./images/about-section-2ndDivImage.jpg') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.second-div-text
+{
+    background-color:#343a40;
+    flex-wrap: wrap;
+}
+.second-div-heading
+{
+    font-size: 2.5rem !important;
+    font-family:sans-serif;
+    font-weight:500;
+    line-height:1.2;
+    color: whitesmoke;
+}
+.second-div-para
+{
+    font-family:sans-serif;
+      color: whitesmoke;
+}
+.third-div {
+    background-color: #343a40;
+    height: 40vh;
+    width: 100vw;  
+  }
+  .third-div-title
+  {
+    color:  #f8f9fa;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 1.2;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 90px;
+  }
+  .fourth-div 
+  {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  .gallary-item
+  {
+    position: relative;
+  }
+
+  .gallary-item a {
+    position: absolute;
+    left: 155px;
+    top:150px;
+    display: none;
+
+  }
+  .gallary-item:hover a{
+    display: block;
+  }
+ 
+  .gallary .gallary-item .gallary-img
+  {
+    width: 25vw;
+    vertical-align: left;
+    background-size: cover;
+    border: 2px solid #343a40;
+    box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  }
+  .gallary-overlay
+  {
+    display: flex;
+  }
+ 
+ .gallary-icon
+  {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+  }
